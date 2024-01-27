@@ -1,0 +1,83 @@
+html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    background-color : rgb(131, 131, 131);
+    font-family : sans-serif;
+    display: table-cell;
+    vertical-align: middle;
+    
+}
+
+
+
+form { 
+    align-items: center;
+    background-color: white;
+    padding: 10px;
+    width: 500px;
+    border-inline: 1rem solid;
+    writing-mode: horizontal-tb;
+
+    
+    
+    
+}
+
+h1{
+    text-align: center;
+    text-shadow: 2px 2px 5px grey;
+
+}
+
+input{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #C2C2C2;
+    box-shadow: 1px 1px 4px #EBEBEB;
+    
+
+}
+
+#submit{
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#submit:focus{
+    background-color: #C2C2C2;
+    color: black;
+
+}
+
+#reset{
+    background-color: yellow;
+    border: none;
+    color: black;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#reset:focus{
+    background-color: #C2C2C2;
+}
+
+
+span{
+    color: red;
+}
